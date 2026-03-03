@@ -2,22 +2,22 @@
 // Each BAB is a collapsible section with internal navigation
 
 const chapters = [
-    {
-        id: 'abstrak',
-        title: 'Abstrak',
-        icon: '📄',
-        content: `
+  {
+    id: 'abstrak',
+    title: 'Abstrak',
+    icon: '📄',
+    content: `
 <p>Dalam ekosistem industri pembangkitan listrik yang berisiko tinggi, layanan <em>industrial cleaning</em> sering kali terjebak dalam paradigma komoditas yang hanya berfokus pada penyediaan tenaga kerja (<em>manpower supply</em>). Pendekatan ini menciptakan "ilusi kepatuhan" (<em>compliance illusion</em>), di mana fasilitas tampak bersih secara visual sesaat namun gagal memenuhi standar pengendalian risiko operasional dan lingkungan secara berkelanjutan. Akibatnya, perusahaan pemilik aset (Asset Owner) menanggung risiko tersembunyi berupa temuan audit berulang, potensi bahaya keselamatan (K3), dan ancaman sanksi regulasi PROPER.</p>
 <p>Inovasi <strong>MKP MIC+ (Managed Industrial Cleaning Plus)</strong> hadir sebagai solusi disruptif yang mentransformasi layanan kebersihan konvensional menjadi produk <em>Facility Readiness Assurance</em> (Jaminan Kesiapan Fasilitas). Menggunakan metodologi <em>Design Thinking</em>, inovasi ini meredefinisi deliverable layanan dari "aktivitas pembersihan" menjadi "jaminan kondisi fasilitas yang terukur dan siap audit". MKP MIC+ mengintegrasikan standar ISO 41001:2018, ISO 31000, dan kriteria kepatuhan PROPER KLHK ke dalam sistem scoring kematangan fasilitas (MIC Level) dan bukti digital (<em>digital evidence</em>).</p>
 <p>Hasil validasi pada <em>pilot project</em> di 17 unit pembangkit menunjukkan dampak signifikan: penghilangan temuan minor berulang, peningkatan kesiapan audit menjadi 24/7, dan penciptaan aliran pendapatan baru melalui skema kontrak berbasis hasil (<em>outcome-based contract</em>). Secara finansial, inovasi ini memproyeksikan potensi kenaikan pendapatan per unit menjadi Rp11,7 M – Rp12,4 M melalui penerapan harga premium yang didukung oleh <em>value proposition</em> berupa transfer risiko dan jaminan kepatuhan. MKP MIC+ membuktikan bahwa <em>industrial cleaning</em> dapat berevolusi dari <em>Cost Center</em> menjadi <em>Profit Enabler</em> strategis bagi PLN Group.</p>
 <p><strong>Kata kunci:</strong> karya inovasi, managed industrial cleaning, facility readiness assurance, outcome-based contract, risk governance</p>
 `
-    },
-    {
-        id: 'bab1',
-        title: 'BAB I — Pendahuluan',
-        icon: '1️⃣',
-        content: `
+  },
+  {
+    id: 'bab1',
+    title: 'BAB I — Pendahuluan',
+    icon: '1️⃣',
+    content: `
 <h3>1.1 Latar Belakang</h3>
 <p>Industri energi nasional, khususnya sub-sektor pembangkitan tenaga listrik, sedang berada dalam fase transisi yang krusial. Tekanan untuk menekan Biaya Pokok Penyediaan (BPP) listrik berjalan beriringan dengan tuntutan regulasi lingkungan dan keselamatan kerja yang semakin ketat. Dalam konteks ini, pengelolaan fasilitas fisik pembangkit (<em>Balance of Plant</em>) menjadi elemen kritikal yang sering kali terabaikan namun memiliki dampak sistemik yang besar.</p>
 <p>Secara historis, layanan <em>industrial cleaning</em> di lingkungan PLN Group dikelola dengan paradigma "Penyedia Tenaga Kerja" (<em>Manpower Supply</em>). Kontrak kerja disusun berdasarkan Harga Satuan (KHS) yang mengacu pada jumlah personel (<em>headcount</em>) dan jam kerja. Model bisnis ini memiliki kelemahan fundamental yang kami identifikasi sebagai <strong>"Perangkap Komoditisasi"</strong>:</p>
@@ -55,12 +55,12 @@ const chapters = [
 <li><strong>Test & Operate:</strong> Menguji coba model pada 17 unit pembangkit untuk validasi performa dan skalabilitas.</li>
 </ol>
 `
-    },
-    {
-        id: 'bab2',
-        title: 'BAB II — Kajian Literatur',
-        icon: '2️⃣',
-        content: `
+  },
+  {
+    id: 'bab2',
+    title: 'BAB II — Kajian Literatur',
+    icon: '2️⃣',
+    content: `
 <h3>2.1 Teori Servitisasi (Servitization) dan Product-Service System (PSS)</h3>
 <p>Transformasi MKP MIC+ berakar pada teori <em>Servitization</em>, yaitu pergeseran strategis perusahaan dari penjualan produk atau jasa dasar menuju penyediaan solusi terintegrasi berbasis hasil (<em>outcome-oriented solution</em>). Literatur menyebutkan bahwa perusahaan yang berhasil melakukan servitisasi tidak lagi menjual "aktivitas", tetapi menjual "kinerja" dan "jaminan keberhasilan" (<em>performance assurance</em>).</p>
 <p>Dalam model tradisional, MKP menjual input berupa tenaga kerja dan jam operasional. Dalam model MIC+, nilai yang ditawarkan adalah kesiapan fasilitas dan stabilitas kepatuhan. Perubahan ini menggeser posisi MKP dalam rantai nilai industri dari sekadar operator pelaksana menjadi mitra pengendalian risiko.</p>
@@ -92,12 +92,12 @@ const chapters = [
 <h3>2.6 Regulasi Lingkungan (PROPER) dan Manajemen Risiko (ISO 31000)</h3>
 <p>Program PROPER dari KLHK merupakan instrumen regulasi utama di Indonesia. Kegagalan dalam aspek <em>housekeeping</em> sederhana — ceceran oli ke drainase atau debu beterbangan (<em>fugitive emission</em>) — dapat menjadi temuan mayor yang menggugurkan peringkat Hijau atau Emas. MKP MIC+ mengadopsi prinsip ISO 31000 untuk mengidentifikasi titik rawan kegagalan PROPER dan menanamkan kontrol mitigasi ke dalam prosedur kerja harian.</p>
 `
-    },
-    {
-        id: 'bab3',
-        title: 'BAB III — Pembahasan Inovasi',
-        icon: '3️⃣',
-        content: `
+  },
+  {
+    id: 'bab3',
+    title: 'BAB III — Pembahasan Inovasi',
+    icon: '3️⃣',
+    content: `
 <h3>3.1 Identifikasi Masalah</h3>
 <p>Permasalahan mendasar dalam layanan industrial cleaning di sektor pembangkitan bukan terletak pada kurangnya tenaga kerja, melainkan pada <strong>ketiadaan sistem tata kelola yang mampu menjamin stabilitas kondisi fasilitas secara berkelanjutan</strong>. Model kontrak berbasis manpower menciptakan apa yang disebut sebagai <em>Black Box Operasional</em>.</p>
 
@@ -206,12 +206,12 @@ const chapters = [
 <h3>3.9 Go To Market Strategy</h3>
 <p>Strategi komersialisasi bertahap: validasi di unit prioritas, ekspansi ke captive market, lalu ke pasar non-captive melalui pilot project. Pendekatan <em>anchor client</em> dan <em>cross-selling</em> digunakan untuk meningkatkan nilai kontrak secara berkelanjutan.</p>
 `
-    },
-    {
-        id: 'bab4',
-        title: 'BAB IV — Manfaat Inovasi',
-        icon: '4️⃣',
-        content: `
+  },
+  {
+    id: 'bab4',
+    title: 'BAB IV — Manfaat Inovasi',
+    icon: '4️⃣',
+    content: `
 <h3>4.1 Manfaat Finansial Terhadap Korporat</h3>
 
 <h4>A. Peningkatan Pendapatan (Revenue Uplift)</h4>
@@ -272,12 +272,12 @@ const chapters = [
 <li>Mendorong budaya kerja yang lebih disiplin, sadar risiko, dan berorientasi perbaikan berkelanjutan</li>
 </ul>
 `
-    },
-    {
-        id: 'bab5',
-        title: 'BAB V — Kesimpulan & Saran',
-        icon: '5️⃣',
-        content: `
+  },
+  {
+    id: 'bab5',
+    title: 'BAB V — Kesimpulan & Saran',
+    icon: '5️⃣',
+    content: `
 <h3>5.1 Kesimpulan</h3>
 <p>Inovasi MKP MIC+ membuktikan bahwa <em>industrial cleaning</em> bukan sekadar aktivitas operasional pendukung, melainkan elemen kritikal dalam pengendalian risiko fasilitas dan perlindungan nilai aset perusahaan. Permasalahan utama yang dihadapi bukan kekurangan tenaga kerja, tetapi ketiadaan sistem tata kelola yang mampu menjamin stabilitas kualitas secara berkelanjutan dan terukur.</p>
 <p>Melalui pendekatan berbasis maturitas (MIC Level), monitoring digital, dan integrasi standar ISO serta indikator PROPER, MIC+ berhasil mentransformasikan model bisnis dari <em>manpower-based service</em> menjadi <em>outcome-based assurance service</em>. Transformasi ini menghasilkan:</p>
@@ -301,12 +301,12 @@ const chapters = [
 <p style="font-style:italic;color:var(--text-secondary);margin:0;">Inovasi ini menunjukkan bahwa keunggulan kompetitif tidak selalu berasal dari teknologi baru yang kompleks, tetapi dari keberanian mengubah paradigma: dari sekadar menyelesaikan pekerjaan menjadi menjamin stabilitas dan kesiapan fasilitas secara sistemik. Jika dikembangkan secara konsisten, MIC+ berpotensi menjadi <strong>standar baru dalam pengelolaan industrial cleaning berbasis risiko di Indonesia</strong>.</p>
 </blockquote>
 `
-    },
-    {
-        id: 'pustaka',
-        title: 'Daftar Pustaka',
-        icon: '📚',
-        content: `
+  },
+  {
+    id: 'pustaka',
+    title: 'Daftar Pustaka',
+    icon: '📚',
+    content: `
 <div style="font-size:var(--fs-sm);line-height:1.8;">
 <p>Ashurst. (2026). <em>Indonesia's new power development plan: Highlights from the 2025–2034 RUPTL.</em></p>
 <p>Aspire. (2026). <em>Top cleaning business tech trends to watch in 2025.</em></p>
@@ -333,12 +333,12 @@ const chapters = [
 <p>Technavio. (2026). <em>Cleaning services market growth analysis – size and forecast 2026–2030.</em></p>
 </div>
 `
-    }
+  }
 ];
 
 export function renderMakalah() {
-    const app = document.getElementById('app');
-    app.innerHTML = `
+  const app = document.getElementById('app');
+  app.innerHTML = `
     <section class="section" style="padding-top:var(--space-10);">
       <div class="container">
         <!-- Header -->
@@ -403,11 +403,11 @@ export function renderMakalah() {
             ↑ Kembali ke Atas
           </button>
           <div style="margin-top:var(--space-3);">
-            <a href="#/" style="font-size:var(--fs-xs);color:var(--text-muted);text-decoration:none;">← Kembali ke Beranda</a>
+            <a href="#/" onclick="window.location.hash='#/';window.scrollTo(0,0);" style="font-size:var(--fs-xs);color:var(--text-muted);text-decoration:none;">← Kembali ke Beranda</a>
           </div>
         </div>
       </div>
     </section>
   `;
-    window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
 }
