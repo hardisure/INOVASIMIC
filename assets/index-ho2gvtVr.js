@@ -2129,7 +2129,7 @@ Contoh: PLTU 25,000 m², Level 4:
             ↑ Kembali ke Atas
           </button>
           <div style="margin-top:var(--space-3);">
-            <a href="#/" style="font-size:var(--fs-xs);color:var(--text-muted);text-decoration:none;">← Kembali ke Beranda</a>
+            <a href="#/" onclick="window.location.hash='#/';window.scrollTo(0,0);" style="font-size:var(--fs-xs);color:var(--text-muted);text-decoration:none;">← Kembali ke Beranda</a>
           </div>
         </div>
       </div>
