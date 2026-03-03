@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="MKP MIC+ — Industrial Risk Control Architecture. Transformasi dari Industrial Cleaning menjadi Facility Readiness Assurance berbasis tata kelola risiko, ISO 41001, dan PROPER." />
+  <title>MKP MIC+ | Facility Risk Control Architecture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+
+<body>
+  <div id="app">
+    <nav id="main-nav" class="main-nav">
+      <div class="nav-inner">
+        <a href="#/" class="nav-logo" id="nav-logo">
+          <img src="/assets/logo-mkp.png" alt="MKP Logo" />
+          <span class="nav-logo-text">MIC<sup>+</sup></span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#/" data-page="home">Home</a></li>
+          <li><a href="#/risk-model" data-page="risk-model">Risk Model</a></li>
+          <li><a href="#/heatmap" data-page="heatmap">Heatmap</a></li>
+          <li><a href="#/simulation" data-page="simulation">Simulation</a></li>
+          <li><a href="#/architecture" data-page="architecture">Architecture</a></li>
+          <li><a href="#/financial" data-page="financial">Financial</a></li>
+          <li><a href="#/compliance" data-page="compliance">ESG</a></li>
+          <li><a href="#/scalability" data-page="scalability">Scale</a></li>
+          <li><a href="#/executive" data-page="executive">Executive</a></li>
+        </ul>
+        <button class="pres-toggle" id="pres-toggle" title="Toggle Presentation Mode">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="3" width="20" height="14" rx="2" />
+            <line x1="8" y1="21" x2="16" y2="21" />
+            <line x1="12" y1="17" x2="12" y2="21" />
+          </svg>
+          <span class="pres-label">Present</span>
+        </button>
+      </div>
+    </nav>
+    <main id="page-content"></main>
+    <footer style="text-align:center;padding:24px 16px;border-top:1px solid rgba(0,0,0,0.06);">
+      <div style="font-size:11px;color:#9CA3AF;line-height:1.6;">
+        © 2025 PT Mitra Karya Prima — MIC+ Strategic Innovation
+        <span style="margin:0 8px;opacity:0.3;">|</span>
+        <a href="#/methodology" style="color:#9CA3AF;text-decoration:none;opacity:0.6;transition:opacity 0.2s;"
+          onmouseover="this.style.opacity='1';this.style.color='#0057B8'"
+          onmouseout="this.style.opacity='0.6';this.style.color='#9CA3AF'">Methodology & Calculations</a>
+        <span style="margin:0 8px;opacity:0.3;">|</span>
+        <a href="#/makalah" style="color:#9CA3AF;text-decoration:none;opacity:0.6;transition:opacity 0.2s;"
+          onmouseover="this.style.opacity='1';this.style.color='#0057B8'"
+          onmouseout="this.style.opacity='0.6';this.style.color='#9CA3AF'">📖 Makalah Lengkap</a>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
